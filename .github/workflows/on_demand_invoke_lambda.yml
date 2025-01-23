@@ -1,4 +1,4 @@
-name: Invoke Lambda with OIDC
+name: Invoke On-Demand Lambda with OIDC
  
 on:
   workflow_dispatch:
