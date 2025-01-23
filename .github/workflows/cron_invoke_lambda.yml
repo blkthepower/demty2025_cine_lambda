@@ -18,7 +18,7 @@ jobs:
       - name: Configure AWS Credentials via OIDC
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          role-to-assume: arn:aws:iam::908027376186:role/lambda_rol_invoke_function_cine_pos_data
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }} 
           aws-region: us-east-1
  
       - name: Invoke Lambda
