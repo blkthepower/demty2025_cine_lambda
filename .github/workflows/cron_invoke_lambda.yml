@@ -2,7 +2,7 @@ name: Invoke Lambda with OIDC
  
 on:
   schedule:
-   - cron: '0 */2 * * *'
+   - cron: '0 */24 * * *'
  
 jobs:
   invoke-lambda:
